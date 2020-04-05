@@ -1,0 +1,172 @@
+body {
+  font-family: 'Montserrat';
+  text-align:center
+}
+h1,h2,h3{
+  font-family: 'Montserrat';
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding:7% 15%;
+}
+
+/*heading*/
+.section-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*title section*/
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 14%;
+}
+
+.dogfie {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 33%;
+  top: 25%;
+}
+
+nav {
+  position: relative;
+  right: 13px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.meet {
+  position: relative;
+  top: 70px;
+}
+
+.btn-outline-light {
+  position: relative;
+  left: 9px;
+}
+
+
+
+/*feature section*/
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.fas {
+  font-size: 3.5rem;
+  color: #ef8172;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+.feature-title{
+  font-weight: bold;
+}
+/*testimonial section*/
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-images {
+  width: 15%;
+  border-radius: 100%;
+  margin: 2%;
+}
+.testimonial-text {font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*press section*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/*pricing section*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price-header{
+    font-weight: bold;
+}
+/*Call to action*/
+#cta {
+  background-color: #ff4c68;
+
+}
+
+.find-love {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.last-download {
+  padding: 3%;
+}
+
+.btn-light {
+  position: relative;
+  left: 12px;
+}
+
+/*footer*/
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+}
+
+.social-media {
+  padding: 4% 2% 4%;
+}
+
+
+@media (max-width:991px) {
+  .dogfie {
+    position: static;
+    transform: rotate(0deg);
+    margin-top: 117px;
+  }
+  #title {
+    text-align: center;
+  }
+}
